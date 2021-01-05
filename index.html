@@ -1,0 +1,98 @@
+<header>
+    <h1 id="title"><strong>Dog Survey</strong></h1>
+    <p id="description">We think dogs are great! Thank you for helping us by letting us know what you think of them!</p>
+  </header>
+  
+  <form id="survey-form">
+    
+    <div id="name-labels">
+      <label id="name-label"><strong>Tell us your name!</strong></label>
+      <div class="input-box">
+      <input type="text" name="name" id="name" placeholder="Please enter your name" required/>
+      </div>
+    </div>
+    
+    <div id="email-labels">
+      <label id="email-label" for="email"><strong>What is your email?</strong></label>
+      <div class="input-box">
+    <input type="email" name="email" id="email" placeholder="Please enter your email" required/>
+      </div>
+    </div>
+    
+    <div id="have-dogs">
+      <p><strong>Do you have any dogs?</strong></p>
+        <label id="have-dogs">
+          <input name="have-dogs" value="yes" type="radio" required/>Yes
+        </label>
+        <label id="have-dogs">
+          <input name="have-dogs" value="yes" type="radio" required/>No
+        </label>
+    </div>
+  
+    <div id="number-labels">
+      <label id="number-label"><strong>If yes, how many dogs go you have?</strong></label>
+      <div class="input-box">
+        <input type="number" name="number-dogs" id="number" min="0" max="999" placeholder="Please enter number of dogs"/>
+      </div>
+    </div>
+    
+    <div id="dog-feelings">
+      <p><strong>Which option best describes how you feel about dogs?</strong></p>
+      <div class="input-box">
+        <select id="dropdown" name="dog-feelings" required>
+          <option disabled selected value>Select the best option</option>
+          <option value="love">I love them</option>
+          <option value="like">I like them</option>
+          <option value="indifferent">I am indifferent about them</option>
+          <option value="dislike">I dislike them</option>
+          <option value="hate">I hate them</option>
+        </select>
+      </div>
+    </div>
+    
+    <div id="checkbox">
+      <p><strong>Please select all that apply</strong></p>
+      <div>
+      <label>
+        <input name="applies" value="currently-owns-dog" type="checkbox"/>I currently own one or more dogs
+      </label>
+      </div>
+      <div>
+      <label>
+        <input name="applies" value="currently-lives-with-dog" type="checkbox"/>I currently live with one or more dogs
+      </label>
+      </div>
+      <div>
+      <label>
+        <input name="applies" value="childhood-dog" type="checkbox"/>I grew up with a dog
+      </label>
+      </div>
+      <div>
+      <label>
+        <input name="applies" value="family-owns-dog" type="checkbox"/>One or more of my immediate family members own at least 1 dog
+      </label>
+      </div>
+      <div>
+      <label>
+      <input name="applies" value="family-owns-dog" type="checkbox"/>One or more of my closest friends own at least 1 dog
+      </label>
+      </div>
+      <div>
+      <label>
+      <input name="applies" value="watched-dog" type="checkbox"/>I have watched one or more dogs for a friend, family member, or monetary compensation
+      </label>
+      </div>
+    </div>
+  
+    <div id="comments">
+      <p><strong>Anything you'd like to add?</strong?</p>
+        <textarea id="extra-info" name="extra-info" placeholder="Please enter any additional information you would like to add here...">
+        </textarea>
+    </div>
+  
+    <div>
+      <button type="submit" id="submit"><strong>Submit</strong>
+      </button>
+    </div>
+    
+  </form>

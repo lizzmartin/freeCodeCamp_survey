@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Sacramento&display=swap');
+
+html {
+  text-align: center;
+  font-family: 'Raleway', monospace;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/ad/Flickr_-_Israel_Defense_Forces_-_Work_Like_a_Dog.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0rem 5rem;
+  border-radius: 0.75rem;
+  display: block;
+  height: 50%;
+  width: 40%;
+  margin: 2rem auto 2rem auto;
+}
+
+#title {
+  font-family: 'Sacramento', monospace;
+  font-size: 55px;
+  padding: 1rem 0rem 0rem 0rem;
+}
+
+#description {
+  padding: 0rem 0rem 1rem 0rem;
+}
+
+form {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 2rem 5rem;
+  border-radius: 0.75rem;
+  display: block;
+  height: 90%;
+  width: 40%;
+  margin: 0 auto 0 auto;
+  text-align: left;
+}
+
+#name-labels {
+  padding: 1.5rem 0rem;
+}
+
+#email-labels {
+  padding: 1.5rem 0rem;
+}
+
+#have-dogs {
+  padding: 1.5rem 0rem;
+} 
+
+#number-labels {
+  padding: 1.5rem 0rem;
+}
+
+#dog-feelings {
+  padding: 1.5rem 0rem;
+}
+
+#checkbox {
+  padding: 1.5rem 0rem;
+}
+
+#comments {
+  padding: 1.5rem, 0rem;
+}
+
+#extra-info {
+  width: 100%;
+  height: 100px;
+  margin: 0.5rem 0rem 0rem 0rem;
+}
+
+.input-box {
+  margin: 0.5rem 0rem 0rem 0rem;
+  width: 100%;
+}
+
+#submit {
+  width: 100%;
+  padding: 0.5rem 0.25rem;
+  border-radius: 2px;
+  border-color: orange;
+  color: black;
+  font-family: 'Raleway', monospace;
+  font-size: 18px;
+  align-items: center;
+  text-align: center;
+  background: orange;
+}
